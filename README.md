@@ -17,5 +17,8 @@ or
 ./getPlayerStats.sh 34
 ```
 
-## Todo
-I'll make a Next.js app for inserting and deleting later. This is just te data schema for now.
+## DB Backup
+To restore the database from the `database.sql` backup you cna run:
+```
+PGPASSWORD=[password] psql -U [user] -h [host] -p [port] -d league --set=sslmode=require < database.sql
+```
