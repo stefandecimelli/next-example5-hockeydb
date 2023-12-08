@@ -1,0 +1,10 @@
+.playerTable {
+    width: 100%;
+    
+}
+
+.playerTable td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}

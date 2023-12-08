@@ -1,0 +1,1 @@
+psql -U postgres -d league -f allgoals.sql -v team="$1"

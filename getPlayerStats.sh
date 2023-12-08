@@ -1,0 +1,1 @@
+./getTeamStats.sh '' |awk -v search="$1" 'NR <= 2 || tolower($0) ~ tolower(search) {print}'
